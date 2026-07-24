@@ -1,4 +1,10 @@
 # OOPS+
+[![DOI](https://zenodo.org/badge/1293703397.svg)](https://doi.org/10.5281/zenodo.21529292)
+
+## Authors: 
+- Carlos Gaspar Santiago,
+- María Poveda Villalón
+- Daniel Garijo
 
 ## Description
 

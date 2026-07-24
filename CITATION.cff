@@ -1,0 +1,36 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: OOPS+
+message: >-
+  An extension of the ontology pitfall scanner (OOPS!) with
+  Large Language Models
+type: software
+authors:
+  - given-names: Carlos
+    family-names: Gaspar-Santiago
+    email: carlos.gaspar.santiago@alumnos.upm.es
+    affiliation: Universidad Politécnica de Madrid
+  - given-names: María
+    family-names: Poveda-Villalón
+    email: m.poveda@upm.es
+    orcid: 'https://orcid.org/0000-0003-3587-0367'
+    affiliation: Universidad Politécnica de Madrid
+  - given-names: Daniel
+    family-names: Garijo
+    email: daniel.garijo@upm.es
+    affiliation: Universidad Politécnica de Madrid
+    orcid: 'https://orcid.org/0000-0003-0454-7145'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21529292
+    description: Latest release of the software tool
+repository-code: 'https://github.com/oeg-upm/OOPS-Plus'
+keywords:
+  - ontology evaluation
+  - pitfall scanner
+  - OOPS!
+  - LLM
+license: MIT
+
