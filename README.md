@@ -4,6 +4,8 @@
 
 OOPS+ is an extension of the original OOPS! ontology pitfall scanner. The original OOPS! application provides the immediate ontology evaluation report, while OOPS+ adds a second report pipeline for checks that require an LLM.
 
+![image](img/architecture.png)
+
 The current setup contains two web applications:
 
 - **OOPs**: the regular OOPS! application. It generates the normal report immediately.
