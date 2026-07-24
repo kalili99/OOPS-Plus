@@ -1,0 +1,216 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": [
+    "SoftwareSourceCode",
+    "SoftwareApplication"
+  ],
+  "license": {
+    "name": "MIT License",
+    "url": "https://spdx.org/licenses/Apache-2.0",
+    "identifier": "https://spdx.org/licenses/MIT"
+  },
+  "author": [
+    {
+      "affiliation": {
+        "name": "Universidad Politécnica de Madrid",
+        "@type": "Organization"
+      },
+      "email": "m.poveda@upm.es",
+      "familyName": "Poveda-Villalón",
+      "givenName": "María",
+      "@id": "https://orcid.org/0000-0003-3587-0367",
+      "@type": "Person"
+    },
+    {
+      "affiliation": {
+        "name": "Universidad Politécnica de Madrid",
+        "@type": "Organization"
+      },
+      "email": "carlos.gaspar.santiago@alumnos.upm.es",
+      "familyName": "Carlos",
+      "givenName": "Gaspar-Santiago",
+      "@type": "Person"
+    },
+    {
+      "affiliation": {
+        "name": "Universidad Politécnica de Madrid",
+        "@type": "Organization"
+      },
+      "email": "daniel.garijo@upm.es",
+      "familyName": "Garijo",
+      "givenName": "Daniel",
+      "@id": "http://orcid.org/0000-0003-0454-7145",
+      "@type": "Person"
+    }
+  ],
+  "codeRepository": "https://github.com/oeg-upm/OOPS-Plus",
+  "issueTracker": "https://api.github.com/repos/oeg-upm/OOPS-Plus/issues",
+  "dateCreated": "2026-07-08",
+  "dateModified": "2026-07-24",
+  "downloadUrl": "https://github.com/oeg-upm/OOPS-Plus/releases",
+  "name": "OOPS-Plus",
+  "programmingLanguage": [
+    "HTML",
+    "Java"
+  ],
+  "softwareRequirements": [
+    {
+      "name": "amqp-client",
+      "@type": "SoftwareApplication",
+      "version": "5.22.0"
+    },
+    {
+      "name": "langchain4j-ollama",
+      "@type": "SoftwareApplication",
+      "version": "0.31.0"
+    },
+    {
+      "name": "junit-jupiter-api",
+      "@type": "SoftwareApplication",
+      "version": "5.11.4"
+    },
+    {
+      "name": "junit-jupiter-params",
+      "@type": "SoftwareApplication",
+      "version": "5.11.4"
+    },
+    {
+      "name": "javax.servlet-api",
+      "@type": "SoftwareApplication",
+      "version": "4.0.1"
+    },
+    {
+      "name": "commons-text",
+      "@type": "SoftwareApplication",
+      "version": "1.13.0"
+    },
+    {
+      "name": "slf4j-api",
+      "@type": "SoftwareApplication",
+      "version": "2.0.17"
+    },
+    {
+      "name": "reload4j",
+      "@type": "SoftwareApplication",
+      "version": "1.2.26"
+    },
+    {
+      "name": "slf4j-reload4j",
+      "@type": "SoftwareApplication",
+      "version": "2.0.17"
+    },
+    {
+      "name": "jena-core",
+      "@type": "SoftwareApplication",
+      "version": "5.3.0"
+    },
+    {
+      "name": "jena-arq",
+      "@type": "SoftwareApplication",
+      "version": "5.3.0"
+    },
+    {
+      "name": "metainf-services",
+      "@type": "SoftwareApplication",
+      "version": "1.11"
+    },
+    {
+      "name": "owlapi-api",
+      "@type": "SoftwareApplication",
+      "version": "5.5.1"
+    },
+    {
+      "name": "owlapi-apibinding",
+      "@type": "SoftwareApplication",
+      "version": "5.5.1"
+    },
+    {
+      "name": "jersey-common",
+      "@type": "SoftwareApplication",
+      "version": "3.1.10"
+    },
+    {
+      "name": "jersey-container-servlet",
+      "@type": "SoftwareApplication",
+      "version": "3.1.10"
+    },
+    {
+      "name": "jersey-hk2",
+      "@type": "SoftwareApplication",
+      "version": "3.1.10"
+    },
+    {
+      "name": "jersey-media-json-jackson",
+      "@type": "SoftwareApplication",
+      "version": "3.1.10"
+    },
+    {
+      "name": "jaxb-runtime",
+      "@type": "SoftwareApplication",
+      "version": "4.0.5"
+    },
+    {
+      "name": "jakarta.jakartaee-api",
+      "@type": "SoftwareApplication",
+      "version": "10.0.0"
+    },
+    {
+      "name": "3scale-api",
+      "@type": "SoftwareApplication",
+      "version": "3.0.2"
+    },
+    {
+      "name": "extjwnl",
+      "@type": "SoftwareApplication",
+      "version": "2.0.5"
+    },
+    {
+      "name": "extjwnl-data-wn31",
+      "@type": "SoftwareApplication",
+      "version": "1.2"
+    },
+    {
+      "name": "jackson-dataformat-yaml",
+      "@type": "SoftwareApplication",
+      "version": "2.18.3"
+    },
+    {
+      "name": "jackson-dataformat-xml",
+      "@type": "SoftwareApplication",
+      "version": "2.18.3"
+    },
+    {
+      "name": "picocli",
+      "@type": "SoftwareApplication",
+      "version": "4.7.6"
+    },
+    {
+      "name": "commons-codec",
+      "@type": "SoftwareApplication",
+      "version": "1.15"
+    }
+  ],
+  "releaseNotes": "First release of the system, for the ISWC demo track.\r\nThis version shows a first version of OOPS-Plus, a pitfall scanner for ontology pitfalls boosted by LLMs.\r\n",
+  "softwareVersion": "0.0.1",
+  "datePublished": "2026-07-24",
+  "schema:owner": [
+    {
+      "@type": "Organization",
+      "name": "oeg-upm"
+    }
+  ],
+  "creditText": [
+    "Gaspar-Santiago, C., Poveda-Villalón, M., Garijo, D. (oops+). 10.5281/zenodo.21529292. Available at: https://github.com/oeg-upm/OOPS-Plus"
+  ],
+  "applicationCategory": [
+    "Semantic web"
+  ],
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.21529292"
+  ],
+  "readme": "https://raw.githubusercontent.com/oeg-upm/OOPS-Plus/master/README.md",
+  "runtimePlatform": "Java: 17",
+  "description": [
+    "Source code for OOPS! (OntOlogy Pitfall Scanner!) application boosted by LLMs"
+  ]
+}
