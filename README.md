@@ -20,6 +20,18 @@ The current setup contains two web applications:
 
 When the user enables OOPS+ in the OOPs web interface, OOPs stores the submitted ontology in a shared analysis directory, creates a job, and publishes it to RabbitMQ. An OOPS+ worker consumes that job, runs the OOPsPlus analysis, writes the generated HTML report, and updates the job status. The OOPS+ report page reads that status and displays the report when it is ready.
 
+## Citation
+OOPS!+ has been accepted as a demo at ISWC 2026. While the proceedings are created, please refer to this software through the following citation
+
+```
+@software{Gaspar-Santiago_OOPS_Plus,
+author = {Gaspar-Santiago, Carlos and Poveda-Villalón, María and Garijo, Daniel},
+license = {Apache-2.0},
+title = {{OOPS+}},
+url = {https://github.com/oeg-upm/OOPS-Plus}
+}
+```
+
 ## Architecture
 
 The root Docker Compose file starts:
