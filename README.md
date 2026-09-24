@@ -24,12 +24,12 @@ When the user enables OOPS+ in the OOPs web interface, OOPs stores the submitted
 OOPS!+ has been accepted as a demo at ISWC 2026. While the proceedings are created, please refer to this software through the following citation
 
 ```
-@software{Gaspar-Santiago_OOPS_Plus,
-author = {Gaspar-Santiago, Carlos and Poveda-Villalón, María and Garijo, Daniel},
-license = {Apache-2.0},
-title = {{OOPS+}},
-url = {https://github.com/oeg-upm/OOPS-Plus}
-}
+@inproceedings{GasparSantiago2026OOPS, 
+author = {Gaspar-Santiago, Carlos and Poveda-Villalón, María and Garijo, Daniel}, 
+title = {OOPS!+: Improving Ontology Pitfall Detection with Large Language Models}, 
+booktitle = {International Semantic Web Conference (ISWC 2026)}, 
+year = {2026}, 
+note = {Demo paper} }
 ```
 
 ## Architecture
